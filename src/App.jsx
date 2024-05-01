@@ -26,7 +26,7 @@ function App() {
     let copyText = [...mainText];
     copyText.splice(index, 1);
     setmainText(copyText);
-    setText((mainText[0]).Text);
+    setText((mainText[index]).Text);
   }
 
 
